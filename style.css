@@ -480,3 +480,13 @@ video.sweet-k{
     border-color: rgb(0, 0, 0);
     padding-bottom: 20px;
 }
+.play{
+    position: absolute;
+    top: 135px;
+    left: 600px;
+    font-family: "Headliner";
+    color: beige;
+    font-size: 100px;
+    font-weight: 590;
+
+}
