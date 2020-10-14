@@ -30,7 +30,7 @@
 .encone-in{
     position: relative;
     top: -19px;
-    left: -19px;
+    left: -17px;
     height: 48px;
     width: 285px;
     background-color: #292d2c;
@@ -66,7 +66,7 @@ a.in:hover{
 .enctwo-in{
     position: absolute;
     top: -9px;
-    left: -9px;
+    left: -7px;
     height: 48px;
     width: 285px;
     background-color: #292d2c;
@@ -102,7 +102,7 @@ a.two-in:hover{
 .encthree-in{
     position: absolute;
     top: -9px;
-    left: -9px;
+    left: -7px;
     height: 48px;
     width: 285px;
     background-color: #292d2c;
@@ -138,7 +138,7 @@ a.three-in:hover{
 .encfour-in{
     position: absolute;
     top: -9px;
-    left: -9px;
+    left: -7px;
     height: 48px;
     width: 285px;
     background-color: #292d2c;
