@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+html{
+    background-color: #1e1d2f;
+  }
+  @font-face {
+    font-family: "Headliner";
+    src: url("HeadlinerNo.45 DEMO.ttf");
+  }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.menu {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: none;
+  text-align: center;
+  text-shadow: 4px 4px 3px rgba(10, 10, 10, 0.57);
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+.menu:hover {
+  pointer-events: all;
+}
+.label {
+  padding-top: 0px;
+  margin-top: 0px;
+  font-family: 'Headliner';
+  font-size: 300px;
+  font-weight: 590px;
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.item {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  top: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease, top 0.5s ease;
+  transition-delay: 0;
+}
+span {
+  transition: color 0.5s ease;
+}
+.item:hover span {
+  color: #ff0000;
+}
+.menu:hover .spacer:before {
+  width: 100%;
+  transition-delay: 0s;
+}
+.menu:hover .item {
+  opacity: 1;
+  top: 0px;
+}
+.item:nth-child(1) {
+  transition-delay: 0.45s;
+}
+.item:nth-child(2) {
+  transition-delay: 0.4s;
+}
+.item:nth-child(3) {
+  transition-delay: 0.35s;
+}
+.item:nth-child(4) {
+  transition-delay: 0.3s;
+}
+.item:nth-child(5) {
+  transition-delay: 0.25s;
+}
+.item:nth-child(6) {
+  transition-delay: 0.2s;
+}
+.item:nth-child(7) {
+  transition-delay: 0.15s;
+}
+.item:nth-child(8) {
+  transition-delay: 0.1s;
+}
+.item:nth-child(9) {
+  transition-delay: 0.05s;
+}
+.item:nth-child(10) {
+  transition-delay: 0s;
+}
+.menu:hover .item:nth-child(1) {
+  transition-delay: 0.25s;
+}
+.menu:hover .item:nth-child(2) {
+  transition-delay: 0.3s;
+}
+.menu:hover .item:nth-child(3) {
+  transition-delay: 0.35s;
+}
+.menu:hover .item:nth-child(4) {
+  transition-delay: 0.4s;
+}
+.menu:hover .item:nth-child(5) {
+  transition-delay: 0.45s;
+}
+.menu:hover .item:nth-child(6) {
+  transition-delay: 0.5s;
+}
+.menu:hover .item:nth-child(7) {
+  transition-delay: 0.55s;
+}
+.menu:hover .item:nth-child(8) {
+  transition-delay: 0.6s;
+}
+.menu:hover .item:nth-child(9) {
+  transition-delay: 0.65s;
+}
+.menu:hover .item:nth-child(10) {
+  transition-delay: 0.7s;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    font-family: "Headliner";
+    color:#3d6174;
+    font-size: 60px;
+    font-weight: 590;
+}
+a:hover{
+color: white;
+}
+
+a.art{
+    color: #482755;
+}
+a.art:hover{
+  color: white;
+}
+
+a.log{
+    color: #482755;
+}
+a.log:hover{
+  color: white;
+}
+a.vlog{
+    color: #482755;
+}
+a.vlog:hover{
+  color: white;
+}
+h1.activities{
+    text-decoration: none;
+    padding-bottom: 0px;
+    font-family: "Headliner";
+    color: rgb(255, 255, 255);
+    font-size: 180px;
+    font-weight: 590px;
+    text-align: center;
+}
+img.img-back-act{
+  width: 1200px;
+  border-radius: 0px;
+  position: absolute;
+  top: 20px;
+  left:80px;
+  border-radius: 20px;
+  opacity: 90%;
+  -webkit-box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.75);
+}
