@@ -180,7 +180,7 @@ img.img-back-act{
 -moz-box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.75);
 }
-@media (max-width:500px){
+@media (max-width:600px){
 
   html{
     margin: 5px;
