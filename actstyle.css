@@ -190,18 +190,18 @@ box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.75);
     position: absolute;
     opacity: 100%;
     top: 20px;
-    left: 25%;
+    left: 0%;
     padding: 0px;
-    width: 300px;
+    width: 450px;
   }
   div.label{
-    font-size: 60px;
+    font-size: 90px;
     position: absolute;
-    left: 50%;
+    left: 32%;
     top: 30px;
   }
   a{
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
     top: 100px;
     left: 120px;
@@ -212,51 +212,54 @@ box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.75);
     padding: 0px;
     margin: 0px;
     position: absolute;
-    top: 90px;
-    left: 170px;
+    top: 120px;
+    left: 70px;
   }
   a.art{
     padding: 0px;
     margin: 0px;
     position: absolute;
-    top: 110px;
-    left: 150px;
+    top: 150px;
+    left: 80px;
   }
   a.element{
     padding: 0px;
-    margin: 0px;
+    text-align: right;
     position: absolute;
-    top: 130px;
-    left: 110px;
+    top: 180px;
+    left: 30px;
   }
   a.log{
     padding: 0px;
     margin: 0px;
+    text-align: left;
     position: absolute;
-    top: 210px;
-    left:95px;
+    top: 153px;
+    left:195px;
   }
   a.vlog{
     padding: 0px;
     margin: 0px;
     position: absolute;
-    top: 285px;
-    left: 50px;
+    top: 132px;
+    text-align: center;
+    left: 62px;
   }
   a.cal{
     padding: 0px;
     margin: 0px;
     position: absolute;
-    top: 180px;
-    left: 40px;
+    top: 132px;
+    text-align: left;
+    left: 135px;
     
   }
   a.cale{
     padding: 0px;
     margin: 0px;
     position: absolute;
-    top: 250px;
-    left: 45px;
+    top: 180px;
+    left: 65px;
     
   }
 }
